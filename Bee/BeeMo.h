@@ -6,8 +6,9 @@
 //  Copyright © 2016 Derrick  Ho. All rights reserved.
 //
 
-@import BeeMo
+@import UIKit;
+@import A;
 
-@interface BeeMo : UIViewConroller
-
+@interface BeeMo : UIViewController
+@property AA *ahh;
 @end

@@ -6,8 +6,8 @@
 //  Copyright © 2016 Derrick  Ho. All rights reserved.
 //
 
-#import "Bee.h"
+#import "BeeMo.h"
 
-@implementation Bee
+@implementation BeeMo
 
 @end
