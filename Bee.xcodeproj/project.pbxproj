@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2F26348E1D04B75100D31C13 /* Bee.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F26348D1D04B75100D31C13 /* Bee.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2634961D04B7A600D31C13 /* BeeMo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2634951D04B7A600D31C13 /* BeeMo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F26348A1D04B75100D31C13 /* Bee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F26348D1D04B75100D31C13 /* Bee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bee.h; sourceTree = "<group>"; };
 		2F26348F1D04B75100D31C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2634951D04B7A600D31C13 /* BeeMo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeMo.m; sourceTree = "<group>"; };
+		2F2634971D04B7D100D31C13 /* BeeMo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeMo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				2F26348D1D04B75100D31C13 /* Bee.h */,
+				2F2634951D04B7A600D31C13 /* BeeMo.m */,
+				2F2634971D04B7D100D31C13 /* BeeMo.h */,
 				2F26348F1D04B75100D31C13 /* Info.plist */,
 			);
 			path = Bee;
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2634961D04B7A600D31C13 /* BeeMo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
